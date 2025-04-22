@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerar</title>
-    <link rel="stylesheet" href="styles\style.css">
+    <link rel="stylesheet" href="estilos/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=output" />
 </head>
 <body>
     <header>
@@ -21,5 +22,20 @@
         </nav>
     </header>
     
+    
+    <div class="gerador">
+        <img id="geradorimg" src="https://picsum.photos/1000/1500" alt="">
+        <div class="gerador-texto" id="divgerador">
+            <p class="gerador fontsmall center" style="font-weight: 500;" id="paragrafo">
+                Insira um prompt para a IA gerar uma imagem:
+            </p>
+            <form id="formsgerar" action="#">
+                <input class="margem-input centralizar" id="geradorform" type="text">
+                <button id="botaogerador1" class="centralizar" onclick="gerador()">Enviar</button>
+                <button id="botaogerador2" class="sumir centralizar" onclick="gerador()"><span class="material-symbols-outlined">output</span></button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

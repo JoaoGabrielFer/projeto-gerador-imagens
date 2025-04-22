@@ -136,7 +136,8 @@ img.imagemfs{
     transition-duration: 200ms;
 }
 div.formulario{
-    display: block;
+    display: flexbox;
+    justify-content: center;
     width: 30vw;
     margin-top: 10vh;
     font-family: Poppins;
@@ -154,7 +155,7 @@ div.formulario{
     border-radius: 5px;
     border: 1px solid black;
     padding: 0px;
-    background-color:rgb(245, 248, 231);
+    background-color:white;
 }
 button.enviar{
     width: 100%;
@@ -163,7 +164,7 @@ button.enviar{
     font-size: 14px;
     font-weight: 700;
     border: 1px solid black;
-    background-color:rgb(245, 248, 231);
+    background-color:white;
 }
 button.enviar:hover{
     border: 2px solid black;
@@ -177,7 +178,7 @@ input{
     border-radius: 5px;
     border: 1px solid black;
     padding: 0px;
-    background-color:rgb(245, 248, 231);
+    background-color:white;
 }
 input:active{
     border: 2px solid black;
@@ -192,4 +193,84 @@ input:focus-visible{
 textarea:focus-visible{
     border: 2px solid black;
     outline: none;
+}
+div.gerador input{
+    margin-top: 2vh;
+    width: 25vw;
+    height: 3vh;
+    font-size: 18px;
+    border-radius: 8px;
+}
+div.gerador img{
+    display: none ;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    outline: solid 2px black;
+}
+div.gerador button{
+    margin-top: 2vh;
+    width: 8vw;
+    height: 3vh;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+div.gerador button:hover{
+    background-color: #bbbbbb;
+    transition-duration: 200ms;
+}
+div.gerador button:active{
+    background-color: #666666;
+    transition-duration: 200ms;
+}
+.imggerador{
+    display: block !important;
+}
+.margem-input{
+    margin-top: 2vh !important;
+    height: 6vh !important;
+    font-size: 22px !important;
+}
+div.gerador-texto{
+    border-radius: 10px;
+    width: 38rem;
+    padding: 5px;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sumir{
+    display: none !important;
+}
+.mostrarflex{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+}
+.centralizar{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+#botaogerador2{
+    width: 3rem !important;
+    height: 3vh !important;
+    margin-top: 20.5px !important;
+}
+#botaogerador2:active{
+    color: #999999 !important;
+    transition-duration: 200ms;
+}
+#botaogerador2:hover{
+    background-color: #222222 ;
+    color: #ffffff ;
+    transition-duration: 200ms;
 }

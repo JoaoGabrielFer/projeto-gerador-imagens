@@ -34,3 +34,14 @@ function img6add(){
 function img6remove(){
     document.getElementById("img6").classList.remove("showimg6")
 }
+function gerador(){
+    document.getElementById("geradorimg").classList.add("imggerador")
+    document.getElementById("paragrafo").classList.add("sumir")
+    document.getElementById("geradorform").classList.remove("margem-input")
+    document.getElementById("divgerador").classList.remove("gerador-texto")
+    document.getElementById("botaogerador2").classList.remove("sumir")
+    document.getElementById("botaogerador1").classList.add ("sumir")
+    document.getElementById("formsgerar").classList.add ("mostrarflex")
+    document.getElementById("botaogerador2").classList.remove ("centralizar")
+    document.getElementById("geradorform").classList.remove ("centralizar")
+}
