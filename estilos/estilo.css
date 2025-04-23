@@ -4,7 +4,7 @@
 .center{
     text-align: center;
 }
-h1{
+h1.index{
     font-family: Poppins;
     font-weight: 800 ;
     background-color: black;
@@ -25,7 +25,13 @@ h1.index{
 }
 div.p-sobre{
     margin: 5px;
-    margin-top: 10px;
+    margin-top: 250px;
+}
+header{
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    margin-bottom: 100px;
 }
 .flex-container{
     display: flex;
@@ -76,13 +82,13 @@ div.p-sobre{
     border-radius: 0px;
 }
 p.home{
-    margin-top: 10vh;
+    margin-top: 250px;
 }
 .grid-galeria{
     display: grid;
-    grid: auto/ auto auto auto;
+    grid: auto/ auto auto auto auto auto auto;
     justify-content:space-around ;
-    margin-top: 3vh;
+    margin-top: 250px;
 }
 .card{
     margin: 10px ;
@@ -139,7 +145,7 @@ div.formulario{
     display: flexbox;
     justify-content: center;
     width: 30vw;
-    margin-top: 10vh;
+    margin-top: 250px;
     font-family: Poppins;
     margin-left: auto;
     margin-right: auto;
@@ -202,16 +208,16 @@ div.gerador input{
     border-radius: 8px;
 }
 div.gerador img{
-    display: none ;
+    display: block ;
     border-radius: 10px;
     margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
-    height: 60vh;
+    height: 55vh;
     outline: solid 2px black;
 }
 div.gerador button{
-    margin-top: 2vh;
+    margin-top: 1vh;
     width: 8vw;
     height: 3vh;
     font-family: Poppins;
@@ -235,7 +241,7 @@ div.gerador button:active{
     display: block !important;
 }
 .margem-input{
-    margin-top: 2vh !important;
+    margin-top: 1vh !important;
     height: 6vh !important;
     font-size: 22px !important;
 }
@@ -243,17 +249,9 @@ div.gerador-texto{
     border-radius: 10px;
     width: 38rem;
     padding: 5px;
-    margin-top: 15vh;
+    margin-top: 3vh;
     margin-left: auto;
     margin-right: auto;
-}
-.sumir{
-    display: none !important;
-}
-.mostrarflex{
-    display: flex !important;
-    flex-direction: row;
-    justify-content: center;
 }
 .centralizar{
     display: block;
@@ -273,4 +271,31 @@ div.gerador-texto{
     background-color: #222222 ;
     color: #ffffff ;
     transition-duration: 200ms;
+}
+.descricao{
+    font-family: Poppins;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+div.gerador{
+    margin-top: 230px;
+}
+img.sobre{
+    height: 60vh;
+    margin-top: 250px;
+    margin-right: 10vw;
+    margin-left: 15vw;
+    outline: solid 2px #222222;
+    border-radius: 8px;
+}
+.grid-sobre{
+    display: grid;
+    grid: auto / auto auto;
+}
+h2.sobre{
+    font-family: Poppins;
+    font-size: 48px;
+    line-height: 8rem;
 }
